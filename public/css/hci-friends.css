@@ -1,4 +1,4 @@
-/* applies to anything of class "example-class-selector" */
+	/* applies to anything of class "example-class-selector" */
 .example-class-selector {
 	margin-top: 2em;
 }
@@ -9,6 +9,10 @@
 	color: #CC00AA;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, a {
 	color: #8382BF;
+}
+
+.project {
+	max-width: 300px;
 }
